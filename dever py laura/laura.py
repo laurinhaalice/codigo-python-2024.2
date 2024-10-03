@@ -1,0 +1,6 @@
+tamanhoarodarodadabicicleta = float(input("qual o tamanho do aro da roda da bicicleta?"))
+tamanhodoguidao  = (tamanhoarodarodadabicicleta/2)
+print(f"o tamanho do guidao é:{tamanhodoguidao}")
+tamanhodamanete = (tamanhoarodarodadabicicleta/1/4)
+print(f"o tamanho da manete é: {tamanhodamanete}")
+print (f"o tamanho do quadro da bicicleta é: {tamanhoarodarodadabicicleta}")
