@@ -1,10 +1,11 @@
 x = True
 soma = 0
 while (x==True):
-    numero = float(input("Digite um número:"))
+    numero = float(input("Digite um numero:"))
     continuar = input("Continuar ou parar?").lower()
     if (continuar == "parar"):
-          x = False
-          print(f"A soma deu:{soma}")
+        soma += numero
+        print(f"a soma deu {soma}")
+        x=False
     else:
-         soma += numero
+        soma += numero

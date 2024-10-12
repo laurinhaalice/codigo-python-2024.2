@@ -1,4 +1,8 @@
-x=20
-while x<41:
-    print(x)
-    x+=2
+numero = int(input("Digite um número: "))
+contador = 1  
+
+print(f"A tabuada do {numero} é:")
+while contador <= 10:
+    multiplica = numero * contador
+    print(f"{numero} x {contador} = {multiplica}")
+    contador += 1  

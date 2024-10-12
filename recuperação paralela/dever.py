@@ -13,12 +13,12 @@ else:
 
 verificaçao = input("Deseja fazer verificação para outra pessoa?(sim/não)").lower()
      
-    if verificaçao =="sim":
+if verificaçao =="sim":
       estudante = input("Você é estudante?(sim/não)").lower()
-sessentaanosoumais = input("Você tem 60 anos ou mais?(sim/não)").lower()
-deficiência = input("Você possui alguma deficiência(sim/não)").lower()
-cadastroúnico = input("Você tem cadastro único?(sim//não)").lower()
-profredepubliRJ = input("Você é professor de rede pública muncipal do RJ?(sim/não)").lower()
+      sessentaanosoumais = input("Você tem 60 anos ou mais?(sim/não)").lower()
+      deficiência = input("Você possui alguma deficiência(sim/não)").lower()
+      cadastroúnico = input("Você tem cadastro único?(sim//não)").lower()
+      profredepubliRJ = input("Você é professor de rede pública muncipal do RJ?(sim/não)").lower()
 
-    elif verificaçao =="não":
-        print("Sistema de verificação encerrado.")
+elif verificaçao =="não":
+      print("Sistema de verificação encerrado.")

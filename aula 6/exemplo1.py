@@ -1,10 +1,11 @@
-import time
-print("inciando contagem regressiva")
-contador = 5
+soma = 0
+contador = 0
 
-while contador > 0:
-    print(contador)
-    time.sleep(1)
-    contador -= 1
+#Solicita ao usuario que insira 5 numeros
+while contador < 5:
+    numero=float(input("insira um numero: "))
+    soma += numero
+    contador +=1
 
-print("Fim da contagem regressiva! Bom")
+#Exibe a soma total
+print("A soma total é:", soma)
