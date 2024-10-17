@@ -8,6 +8,7 @@ for i in range(4):
     print("para frente")
 for i in range(2):
     print("para cima")
+for i in range(2):
     print("para trás")
 
 #Faça o personagem chegar no final do labirinto 2
@@ -28,3 +29,4 @@ for i in range(3):
     print("para baixo")
 print("para frente")
 print("abrir porta")
+print("para trás")

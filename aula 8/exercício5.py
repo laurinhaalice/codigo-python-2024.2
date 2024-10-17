@@ -13,3 +13,4 @@ print(f"A soma dos impares deu: {soma}")
  
        
     
+    
